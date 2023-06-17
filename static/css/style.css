@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(65, 245, 161);
+}
+
+.homepageintro{
+    text-align: center;
+    border: 20px 20px;
+}
+
+#disp_farmers{
+    border: 20px 20px;
+    text-align: center;
+}

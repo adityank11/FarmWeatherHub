@@ -1,0 +1,30 @@
+<html>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>aadharID</th>
+                <th>password</th>
+                <th>phone</th>
+                <th>gender</th>
+                <th>fname</th>
+                <th>lname</th>
+                <th>age</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in table_data %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+                <td>{{ row[4] }}</td>
+                <td>{{ row[5] }}</td>
+                <td>{{ row[6] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
